@@ -34,11 +34,6 @@ Alternatively, and the way I would recommend, would be to use node package manag
 <div id="app">
     {{message}}
 
-    <br />
-    <a class="btn-component large primary"
-    :href="`tel:${phoneNumber}`">
-    Call {{ phoneNumber }} 
-    </a>
 
 </div>
 
@@ -68,8 +63,7 @@ Alternatively, and the way I would recommend, would be to use node package manag
     var app = new Vue({
     el: '#app',
     data: {
-      message: 'Hello World!',
-      phoneNumber: '951-742-9555'
+      message: 'Hello World!'
     }
   });
 
